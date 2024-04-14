@@ -1,7 +1,8 @@
 public class tester{
-	public static void main(String[] args)
-	{
-		double i= 7.4/5+4;
-		System.out.println(i);
-	}
+  public static void main(String [] args){
+    int a =10;
+    int b =4;
+    int c =6;
+    System.out.println(a+b%c--);
+  }
 }
