@@ -22,7 +22,7 @@ public class ParamTest6 {
                }
          }
       else{
-
+big=num1;
       }
         return big; 
     }

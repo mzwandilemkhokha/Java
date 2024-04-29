@@ -1,10 +1,13 @@
 public class AgeValidator{
-	public static double calculate(String dob){
-	Scanner scann= new Scanner(System.in);
-	String str=dob;
+	public static int calculate(String dob){
+	//Scanner scann= new Scanner(System.in);
+	String date_string=dob;
 
-  String[] arrOfStr = str.split("/");
-int age=2024-Interger.parseInt(arrOfStr[3]);
-return age;
+    String[] DOBsplitter = date_string.split("/");
+	int age=2024-(Integer.parseInt(DOBsplitter[2]));
+	return age;
 	}
+
+	
+
 }

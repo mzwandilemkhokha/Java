@@ -1,18 +1,24 @@
-public class NumberValidator{
-	public static boolean isValid(String prompt)
+import java.util.Scanner;
 
-	Scanner scann = new Scanner(System.in);
-	System.out.println(prompt);
-	double num=scann.nextLine();
-	boolean isNumber= false
-	if(Double.parseDouble(num)<0)
- 	{
- 		isNumber=true;
- 	}
-	else
+public class NumberValidator{
+	public static boolean isValid(String num){
+	Scanner scann = new Scanner(num);
+boolean isNumber=false;
+	if(scann.hasNextInt())
 	{
+		int x=scann.nextInt();
+		
+isNumber=true;
+
+	}
+	else{
+		System.out.println("The number is not valid");
 		isNumber=false;
 	}
+	
 
-	return isNumber;
+
+scann.close();
+	return isNumber;		
+}
 }
