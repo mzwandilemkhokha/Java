@@ -1,7 +1,9 @@
 public class Printer{
+	
 	public static void print(String printString){
 		System.out.println(printString);
 	}
+
 
 	//extra methods not in the flow diagram
 

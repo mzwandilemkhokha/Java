@@ -1,10 +1,17 @@
 public class tester{
-  public static void main(String [] args){
- int y=4;
-  double x= 3+2*--y;
+   public static void main(String[] args) {
+double a=11.0;
+double b=5.5;
 
-  System.out.println(x);
-  	
-   
-  }
+b=(int)a++/b+(++b+a++);
+System.out.println(b);
+System.out.println(""+a);
+
+
+
+}
+
+
+
+    
 }
