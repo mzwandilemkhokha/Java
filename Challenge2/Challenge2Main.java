@@ -50,12 +50,12 @@ System.out.println("1. Addition");
 								System.out.println(num1+" + "+num2+" = "+Addition.add(num1,num2));
 								MenuPrinter.printMenu();
 								menuDriver=Prompter.prompt("Enter selection");
-								switchloop=false;
+								switchloop=true;
 								break; 
 							   }
 						case 2:{
 								
-								switchloop=false;
+								switchloop=true;
 								System.out.println(num1+" - "+num2+" = "+Subtraction.subtract(num1,num2));
 								MenuPrinter.printMenu();
 								menuDriver=Prompter.prompt("Enter selection");
@@ -63,28 +63,37 @@ System.out.println("1. Addition");
 							}
 						case 3:{
 								System.out.println(num1+" / "+num2+" = "+Division.divide(num1,num2));
-								switchloop=false;
+								switchloop=true;
 ;								MenuPrinter.printMenu();
 								menuDriver=Prompter.prompt("Enter selection");
 								break;
 							}
 						case 4:{
 								System.out.println(num1+" x "+num2+" = "+Multiplication.multiply(num1,num2));
-								switchloop=false;
+								switchloop=true;
 								MenuPrinter.printMenu();
 								menuDriver=Prompter.prompt("Enter selection");
 								break;
 							}
 						case 5:{
 								System.out.println(num1+" % "+num2+" = "+Modulus.modulus(num1,num2));
-								switchloop=false;
+								switchloop=true;
 								MenuPrinter.printMenu();
 								menuDriver=Prompter.prompt("Enter selection");
 								break;
 							}
 						case 99: {
 								System.out.println("exiting");
-								switchloop=false;
+
+								 prompt1=Prompter.prompt("Enter First Number");
+						        prompt2=Prompter.prompt("Enter Second Number");
+								scanNumber1 = new Scanner(prompt1);
+		                        scanNumber2 = new Scanner(prompt2);
+		                        num1=Double.parseDouble(prompt1);
+								num2=Double.parseDouble(prompt2);
+		                        MenuPrinter.printMenu();
+		                        menuDriver=Prompter.prompt("Enter selection");
+								switchloop=true;
 								break;}
 						default:{
 								System.out.println("Invalid menu option entered ");

@@ -5,6 +5,7 @@ public class Algorithm {
 
         for(int i=0;i<lottonumbers.length;i++){
             lottonumbers[i]=i+1;
+            System.out.println(lottonumbers[i]);
         }
        
        
