@@ -11,7 +11,7 @@ public class TestLinkedListIterator{
         names.push("Nkosazana");
         names.push("Samkelo");
         System.out.println("The linkedList has the following names: "+names);
-       
+       List<Integer> syncList = Collections.synchronizedList(names);
         System.out.println("Iterator() method demonstration: ");
         Iterator<String> iterator= names.iterator();
         while(iterator.hasNext()){

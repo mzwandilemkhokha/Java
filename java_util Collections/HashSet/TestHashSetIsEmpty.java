@@ -14,8 +14,8 @@ public class TestHashSetIsEmpty{
 
    //ashSet<String> carsClone=cars.clone();
   System.out.println("HashSet has the following cars"+ cars);
-
-  System.out.println("The isEmpty() can be used to check if the cars HashSet is empty: running the method returns "+ cars.isEmpty());
+cars.remove("Toyota");
+  System.out.println("Running the .remove(Toyota) method on the cars HashSet returns"+ cars);
 
         
         //System.out.println(names);

@@ -10,6 +10,6 @@ boolean Boolean2boolean=String2boolean.booleanValue();
 Boolean boolean2Boolean=Boolean.valueOf(boolean2String); //tihs converts boolean to Boolean
 System.out.println("This string was converted from Boolean to boolean "+ Boolean2boolean);
 
-boolean String2boolean=Boolean.parseBoolean("true");
+boolean String2boolean=Boolean.parseBoolean("true");// converts string to boolean
 	} 
 }  

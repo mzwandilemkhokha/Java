@@ -6,5 +6,7 @@ public class DoubleTest{
 double val=2.5;
 	Double dValue=Double.valueOf(val);
 
+	//String doubleVal=Double.parseDouble("1.5");
+
 	}
 }

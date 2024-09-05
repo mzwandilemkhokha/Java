@@ -30,5 +30,7 @@ public class CustomColleection<E> implements Collection{
 		return null;
 	} 
 
+	
+
 
 }

@@ -15,8 +15,8 @@ public class TestHashSetContains{
    //ashSet<String> carsClone=cars.clone();
   System.out.println("HashSet has the following cars"+ cars);
 
-  System.out.println("The HashSet contains the car brand Bentley is: "+ cars.contains("Bentley"));
-  System.out.println("The HashSet contains the car brand Ford is: "+ cars.contains("Ford"));
+  System.out.println("The statement can be used to check if the cars HashSet is empty: running the method returns "+ cars.isEmpty());
+
         
         //System.out.println(names);
 	}

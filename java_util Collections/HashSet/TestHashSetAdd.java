@@ -12,8 +12,6 @@ List<Long> nums = new LinkedList<>();
   cars.add("Volvo");
   cars.add("Mazda");
   System.out.println("HashSet has the following cars"+ cars);
-  cars.clear();
-  System.out.println("HashSet has the following cars after running clear(): "+ cars);
         
         //System.out.println(names);
 	}

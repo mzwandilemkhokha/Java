@@ -1,7 +1,7 @@
 import java.util.*;
 public class TestVectorSetSort{
 	public static void main(String args[] ){
-Vector<Long> nums = new Vector<Long>();
+LinkedList<Long> nums = new LinkedList<Long>();
 
   nums.add(5l);
   nums.add(2l);
@@ -15,9 +15,9 @@ Vector<Long> nums = new Vector<Long>();
   nums.add(6l);
 
   ArrayList<Long> myNumsList=new ArrayList<Long>(nums);
-  System.out.println("Vector list before sort"+ nums);
+  System.out.println("LinkedList before sort"+ nums);
   Collections.sort(myNumsList);
-  System.out.println("Vector as ArrayList after sort"+ nums);
+  System.out.println("LinkedList as ArrayList after sort"+ nums);
        
 
         
