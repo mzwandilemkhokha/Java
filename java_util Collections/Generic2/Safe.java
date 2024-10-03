@@ -1,4 +1,4 @@
- public interface Safe <T extends Banana>{
+ public interface Safe <T extends Money>{
 
  	private ArrayList<T> arr= new ArrayList<T>();
 int lockIn(T target){

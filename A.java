@@ -1,15 +1,13 @@
 public class A{
-    public static void main(String[] args){
-    System.out.println(AB.FIXED);
-}
-}
+	int i;
+	//public A(){}
+	 A(int x){this.i=x;}
+	 A(int x, int c, int d){this.i=x;}
 
-enum AB{
-   SAVINGS, FIXED, CONSTAB;
-
-   private AB(){
-    System.out.println("it ts");}
 }
 
-
-
+class B extends A{
+	B(){}
+	int j;
+ B(int x, int y){super(x); this.j=y;}
+}

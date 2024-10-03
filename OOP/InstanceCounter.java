@@ -1,4 +1,5 @@
-public class InstanceCounter {
+
+       public class InstanceCounter {
 	
 	static int counter;
 	

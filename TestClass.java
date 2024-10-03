@@ -1,16 +1,10 @@
-class ABCD{
-	int x =10;
-	static int y=20;
-}
-
-class MNOP extends ABCD{
-	int x=30;
-	static int y =40;
-
-}
-
 public class TestClass{
-	public static void main(String[] args){
-	System.out.println(new MNOP().x+"'"+new MNOP().y);
-	}
+    public static void main(String[] args){
+        Object a,b,c;
+        a=new String("A");
+        b=new String("B");
+        c=a;
+        a=b;
+        System.out.println(""+c);
+    }
 }
